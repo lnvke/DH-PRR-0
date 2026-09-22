@@ -2796,10 +2796,6 @@
 		)
 		(instances
 			(project "DH-PRR-0"
-				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
-					(reference "Y1")
-					(unit 1)
-				)
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
 					(reference "Y1")
 					(unit 1)
@@ -3040,10 +3036,6 @@
 		)
 		(instances
 			(project "DH-PRR-0"
-				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
-					(reference "C2")
-					(unit 1)
-				)
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
 					(reference "C6")
 					(unit 1)
@@ -3908,10 +3900,6 @@
 		)
 		(instances
 			(project "DH-PRR-0"
-				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
-					(reference "#PWR02")
-					(unit 1)
-				)
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
 					(reference "#PWR07")
 					(unit 1)
