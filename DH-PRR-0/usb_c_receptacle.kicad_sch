@@ -2105,23 +2105,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 120.65) (xy 215.9 119.38)
+			(xy 215.9 152.4) (xy 215.9 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff14d0d0-7644-4faf-abe8-c1c802e3da59")
-	)
-	(label "VR_{PU}"
-		(at 228.6 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e420aceb-67a7-49a1-bf73-2af14738af3b")
 	)
 	(hierarchical_label "TXD"
 		(shape tri_state)
@@ -2302,7 +2292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 120.65 0)
+		(at 215.9 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2313,7 +2303,7 @@
 		(fields_autoplaced yes)
 		(uuid "563f9e6a-1c47-4a6f-8124-268694243287")
 		(property "Reference" "#PWR041"
-			(at 215.9 127 0)
+			(at 215.9 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2324,7 +2314,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 125.73 0)
+			(at 215.9 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2334,7 +2324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 120.65 0)
+			(at 215.9 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2345,7 +2335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 120.65 0)
+			(at 215.9 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2356,7 +2346,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 120.65 0)
+			(at 215.9 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
