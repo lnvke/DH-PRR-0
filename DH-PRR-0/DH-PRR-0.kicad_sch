@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 60.96 25.4)
-		(size 29.21 38.1)
+		(size 29.21 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 60.96 64.0846 0)
+			(at 60.96 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
-		(size 31.75 38.1)
+		(at 93.98 68.58)
+		(size 31.75 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "64c9e3bf-941e-41e6-9266-e7d08c7e7040")
 		(property "Sheetname" "MEMORY"
-			(at 25.4 24.6884 0)
+			(at 93.98 67.8684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "memory.kicad_sch"
-			(at 25.4 64.0846 0)
+			(at 93.98 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +98,7 @@
 		)
 	)
 	(sheet
-		(at 93.98 25.4)
+		(at 31.75 81.28)
 		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "6ca2e9f9-9113-4670-a326-383919693048")
 		(property "Sheetname" "AM-FM RECEIVER"
-			(at 93.98 24.6884 0)
+			(at 31.75 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "rf_ic.kicad_sch"
-			(at 93.98 46.3046 0)
+			(at 31.75 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -136,7 +136,7 @@
 			)
 		)
 		(pin "DFS" input
-			(at 119.38 35.56 0)
+			(at 57.15 91.44 0)
 			(uuid "f3528640-93c6-4acd-8bc1-3b6204406980")
 			(effects
 				(font
@@ -146,7 +146,7 @@
 			)
 		)
 		(pin "DOUT" output
-			(at 119.38 27.94 0)
+			(at 57.15 83.82 0)
 			(uuid "08c15cc2-a425-4af9-a995-15159c676586")
 			(effects
 				(font
@@ -156,7 +156,7 @@
 			)
 		)
 		(pin "GPO1" output
-			(at 93.98 40.64 180)
+			(at 31.75 96.52 180)
 			(uuid "5be6e7d9-9ad8-4d42-bfeb-e819c840ddd6")
 			(effects
 				(font
@@ -166,7 +166,7 @@
 			)
 		)
 		(pin "GPO2/[~{INT}]" output
-			(at 93.98 43.18 180)
+			(at 31.75 99.06 180)
 			(uuid "b5fe0fa1-d029-4523-a5c6-d509567c7cb7")
 			(effects
 				(font
@@ -176,7 +176,7 @@
 			)
 		)
 		(pin "LOUT/[DFS]" bidirectional
-			(at 119.38 33.02 0)
+			(at 57.15 88.9 0)
 			(uuid "220f3e9e-458c-4c4a-a10b-b165ec13cae2")
 			(effects
 				(font
@@ -186,7 +186,7 @@
 			)
 		)
 		(pin "ROUT/[DOUT]" output
-			(at 119.38 30.48 0)
+			(at 57.15 86.36 0)
 			(uuid "89c5015e-57f2-490e-a7a3-218e8758b29a")
 			(effects
 				(font
@@ -196,7 +196,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 93.98 35.56 180)
+			(at 31.75 91.44 180)
 			(uuid "5610a0a9-0898-481a-a038-fad99c62eff9")
 			(effects
 				(font
@@ -206,7 +206,7 @@
 			)
 		)
 		(pin "SDIO" bidirectional
-			(at 93.98 33.02 180)
+			(at 31.75 88.9 180)
 			(uuid "36ad9834-03e0-430f-886a-2bd6362e238a")
 			(effects
 				(font
@@ -216,7 +216,7 @@
 			)
 		)
 		(pin "~{RST}" input
-			(at 93.98 27.94 180)
+			(at 31.75 83.82 180)
 			(uuid "a15a2e26-3f93-428c-9927-973203c4e3ed")
 			(effects
 				(font
@@ -226,7 +226,7 @@
 			)
 		)
 		(pin "~{SEN}" input
-			(at 93.98 30.48 180)
+			(at 31.75 86.36 180)
 			(uuid "e25e260f-a5db-4d01-8b43-6df894aa75f7")
 			(effects
 				(font
@@ -244,8 +244,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 50.8)
-		(size 25.4 12.7)
+		(at 31.75 25.4)
+		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -260,7 +260,7 @@
 		)
 		(uuid "7632046a-9155-4f6c-a47f-a5971a080e22")
 		(property "Sheetname" "POWER MANAGEMENT"
-			(at 93.98 50.0884 0)
+			(at 31.75 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -271,7 +271,7 @@
 			)
 		)
 		(property "Sheetfile" "power_mgmt.kicad_sch"
-			(at 93.98 64.0846 0)
+			(at 31.75 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -290,7 +290,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 25.4)
+		(at 93.98 25.4)
 		(size 31.75 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -306,7 +306,7 @@
 		)
 		(uuid "e3608c0e-4ba9-4be0-a463-77fe1c953085")
 		(property "Sheetname" "USB-C"
-			(at 123.19 24.6884 0)
+			(at 93.98 24.6884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -317,7 +317,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_c_receptacle.kicad_sch"
-			(at 123.19 64.0846 0)
+			(at 93.98 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

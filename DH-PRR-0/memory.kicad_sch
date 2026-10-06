@@ -1213,6 +1213,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1400,6 +1539,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e06f4cd5-6be7-456b-9b67-d2b8ce7ee0fc")
+	)
+	(no_connect
+		(at 266.7 137.16)
+		(uuid "710201d2-f59a-48b6-b396-0e4aade9ff43")
+	)
+	(no_connect
+		(at 266.7 139.7)
+		(uuid "7433322e-7f53-4a28-86b9-13258d127f55")
+	)
+	(no_connect
+		(at 266.7 129.54)
+		(uuid "8df36087-bf40-4c09-9f17-619bd2028e1b")
+	)
+	(no_connect
+		(at 266.7 132.08)
+		(uuid "bfbec736-6e8b-4e99-8da8-693f320b480b")
 	)
 	(wire
 		(pts
@@ -1633,6 +1788,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 115.57) (xy 267.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784771f2-5450-4a3d-a40c-4a6e312a791c")
+	)
+	(wire
+		(pts
 			(xy 177.8 147.32) (xy 177.8 148.59)
 		)
 		(stroke
@@ -1743,6 +1908,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 124.46) (xy 267.97 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2395c3a-465e-416d-8405-c78d8dac48a8")
+	)
+	(wire
+		(pts
 			(xy 152.4 118.11) (xy 154.94 118.11)
 		)
 		(stroke
@@ -1803,6 +1978,26 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 116.84) (xy 267.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f221735b-fa2c-4e46-8200-e0e14dddf738")
+	)
+	(wire
+		(pts
+			(xy 266.7 121.92) (xy 267.97 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39fd552-c880-4314-bc98-45da09b558ef")
+	)
+	(wire
+		(pts
 			(xy 254 144.78) (xy 254 146.05)
 		)
 		(stroke
@@ -1821,6 +2016,17 @@
 			(justify right)
 		)
 		(uuid "33c58186-df1d-46fe-b633-dbd8ea35b704")
+	)
+	(hierarchical_label "DUSB+"
+		(shape input)
+		(at 267.97 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4652fc8b-179d-4d7a-a164-f3d6d644251a")
 	)
 	(hierarchical_label "D0"
 		(shape input)
@@ -1843,6 +2049,17 @@
 			(justify right)
 		)
 		(uuid "5bfde1c9-1a82-4da5-b439-bd49ff5ea71d")
+	)
+	(hierarchical_label "DUSB-"
+		(shape input)
+		(at 267.97 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c7f5b82-0467-4519-81bb-f54ccc42a8d2")
 	)
 	(hierarchical_label "D2"
 		(shape input)
@@ -2039,6 +2256,84 @@
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/64c9e3bf-941e-41e6-9266-e7d08c7e7040"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 267.97 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4067f615-bf21-4e2d-8177-bfa763374801")
+		(property "Reference" "#PWR049"
+			(at 267.97 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 267.97 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 267.97 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4239bff2-68be-4042-aee7-36c68104b4e8")
+		)
+		(instances
+			(project "DH-PRR-0"
+				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/64c9e3bf-941e-41e6-9266-e7d08c7e7040"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
