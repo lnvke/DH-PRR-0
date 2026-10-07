@@ -883,6 +883,482 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface_USB:MCP2210x-MQ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP2210x-MQ"
+				(at 10.16 19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
+				(at 0 25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf"
+				(at -2.54 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB to SPI Protocol Converter with GPIO, QFN-20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "USB SPI Master Converter Bridge"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*5x5mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP2210x-MQ_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 7.62 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP2210x-MQ_1_1"
+				(pin input line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 12.7 180)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 15.24 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -12.7 180)
+					(length 2.54)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -15.24 180)
+					(length 2.54)
+					(name "GP8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 20.32 270)
+					(length 2.54)
+					(name "VUSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 20.32 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "OSC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "OSC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -20.32 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1415,6 +1891,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 116.84) (xy 238.76 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b10c683-5c2d-48bf-84e8-a0ecbea080d4")
+	)
+	(wire
+		(pts
 			(xy 165.1 135.89) (xy 166.37 135.89)
 		)
 		(stroke
@@ -1565,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 116.84) (xy 243.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7404d525-151e-41a3-a9e8-7cf795820a21")
+	)
+	(wire
+		(pts
 			(xy 232.41 120.65) (xy 232.41 121.92)
 		)
 		(stroke
@@ -1595,6 +2091,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 119.38) (xy 243.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbc36aa-4e23-4751-aac0-9843c232994a")
+	)
+	(wire
+		(pts
 			(xy 162.56 105.41) (xy 162.56 106.68)
 		)
 		(stroke
@@ -1602,6 +2108,16 @@
 			(type default)
 		)
 		(uuid "82dca808-1473-41e0-87c0-c45863831cce")
+	)
+	(wire
+		(pts
+			(xy 242.57 111.76) (xy 243.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c528a6-c9b0-48b2-9015-085177011e7f")
 	)
 	(wire
 		(pts
@@ -1685,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 129.54) (xy 232.41 129.54)
+			(xy 231.14 129.54) (xy 241.3 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1755,6 +2271,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 119.38) (xy 241.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b8d5d3-ffb2-47f9-aa2c-4069d822bf95")
+	)
+	(wire
+		(pts
 			(xy 231.14 121.92) (xy 232.41 121.92)
 		)
 		(stroke
@@ -1765,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 127) (xy 232.41 127)
+			(xy 231.14 127) (xy 238.76 127)
 		)
 		(stroke
 			(width 0)
@@ -1783,17 +2309,6 @@
 			(justify right)
 		)
 		(uuid "33c58186-df1d-46fe-b633-dbd8ea35b704")
-	)
-	(hierarchical_label "DUSB+"
-		(shape input)
-		(at 232.41 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4652fc8b-179d-4d7a-a164-f3d6d644251a")
 	)
 	(hierarchical_label "D0"
 		(shape input)
@@ -1816,17 +2331,6 @@
 			(justify right)
 		)
 		(uuid "5bfde1c9-1a82-4da5-b439-bd49ff5ea71d")
-	)
-	(hierarchical_label "DUSB-"
-		(shape input)
-		(at 232.41 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c7f5b82-0467-4519-81bb-f54ccc42a8d2")
 	)
 	(hierarchical_label "D2"
 		(shape input)
@@ -1860,6 +2364,17 @@
 			(justify right)
 		)
 		(uuid "9cd19aa2-7315-4cba-afbe-45ab88d14683")
+	)
+	(hierarchical_label "~{RST}"
+		(shape input)
+		(at 242.57 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9df1e85-cf82-4c5d-83f0-6720fd7cd01d")
 	)
 	(hierarchical_label "DET"
 		(shape input)
@@ -1945,6 +2460,145 @@
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/64c9e3bf-941e-41e6-9266-e7d08c7e7040"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_USB:MCP2210x-MQ")
+		(at 256.54 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d7e70be-defc-4f1f-bf47-7bad5e9bf210")
+		(property "Reference" "U8"
+			(at 258.6833 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP2210x-MQ"
+			(at 258.6833 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-20-1EP_5x5mm_P0.65mm_EP3.35x3.35mm"
+			(at 256.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/22288A.pdf"
+			(at 254 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB to SPI Protocol Converter with GPIO, QFN-20"
+			(at 256.54 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "20"
+			(uuid "762884d7-9973-43ed-9f17-1e23cdf19899")
+		)
+		(pin "17"
+			(uuid "e29a4128-81e5-45fe-a41a-4538c745f776")
+		)
+		(pin "21"
+			(uuid "a5332d5b-a803-48fe-8fb4-941ce543fe31")
+		)
+		(pin "19"
+			(uuid "e0e2873a-ca2c-4e8e-97d9-451f8abf1a8a")
+		)
+		(pin "10"
+			(uuid "165a4ec2-beec-4563-b807-2b15daabb0bd")
+		)
+		(pin "7"
+			(uuid "2635dd7b-0ac5-41a5-be2f-20f095853f76")
+		)
+		(pin "4"
+			(uuid "d9971d2f-d477-426b-a34a-fd87b9f4a5ad")
+		)
+		(pin "18"
+			(uuid "b7f8a15a-7438-4887-8785-84966c751fd6")
+		)
+		(pin "15"
+			(uuid "b5013dec-5073-44ae-af05-00b7cb560b07")
+		)
+		(pin "6"
+			(uuid "bd02b597-96be-482f-86ee-2688ec87af85")
+		)
+		(pin "8"
+			(uuid "595facbf-a534-4497-99c2-39a0e0aa244f")
+		)
+		(pin "16"
+			(uuid "64cd638b-a307-4495-9be7-b680d1712d31")
+		)
+		(pin "12"
+			(uuid "9ba04721-bdc9-4e2b-a577-2c60eed56b6f")
+		)
+		(pin "14"
+			(uuid "fafe3e6d-b41c-4884-b564-2d2cbbaaf98b")
+		)
+		(pin "11"
+			(uuid "2cb03b5d-b8d9-4990-81cc-aacb45e9a38a")
+		)
+		(pin "5"
+			(uuid "b4bfc3f5-56d1-4007-b601-b71eff064458")
+		)
+		(pin "1"
+			(uuid "0d242e3a-fcdf-4905-a863-2731d04adcf0")
+		)
+		(pin "2"
+			(uuid "4056d8b0-6a45-4ef8-82d0-bba3bb546a3b")
+		)
+		(pin "3"
+			(uuid "d105acd1-caf7-4127-a957-027a9b9378e6")
+		)
+		(pin "9"
+			(uuid "a9896ab5-32ee-4896-91a7-b80b192adadd")
+		)
+		(pin "13"
+			(uuid "a42e4103-89b3-46c4-bb37-fc0369055a76")
+		)
+		(instances
+			(project "DH-PRR-0"
+				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/64c9e3bf-941e-41e6-9266-e7d08c7e7040"
+					(reference "U8")
 					(unit 1)
 				)
 			)

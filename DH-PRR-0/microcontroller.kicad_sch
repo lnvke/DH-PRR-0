@@ -2553,16 +2553,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 93.98) (xy 207.01 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae5e44a0-4abe-4a1a-b3d0-195b6cd73485")
-	)
-	(wire
-		(pts
 			(xy 149.86 166.37) (xy 190.5 166.37)
 		)
 		(stroke
@@ -2600,6 +2590,16 @@
 			(type default)
 		)
 		(uuid "bbb5caf6-840f-4be6-b72b-3392c90aadf9")
+	)
+	(wire
+		(pts
+			(xy 205.74 96.52) (xy 207.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6c76cf-e0a3-4fb3-8bfd-623f9f487d0a")
 	)
 	(wire
 		(pts
@@ -2778,7 +2778,7 @@
 	)
 	(hierarchical_label "SDMMC_CMD"
 		(shape input)
-		(at 207.01 93.98 0)
+		(at 207.01 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
