@@ -26,3 +26,27 @@ This project required a relatively simple 3v3 power solution, or so I thought. I
 Power Management cont.
 
 I have since deleted the other battery charging circuits since they honestly serve no purpose to me as of now, considering that the evaluations I had made last time have since disqualified them from application in my circuit. 
+
+Antenna Considerations
+
+The Si4735, being a dual-band AM/FM radio receiver, requires respective antennas for both bands. With such a small footprint, a good AM loop antenna is rather important, and a small package inductor might not be enough to receive a good signal. Currently the decision is between using a coaxial loopstick antenna inside the housing or using a ferrite core inductor. I did some research with AM receivers, and for the most part, large radios use respective large loop antennas, however I have yet to find clear documentation on how to achieve reliable low-profile AM reception. On the topic of reception though, FM reception is rather simple, as I can just use a telescoping whip antenna, and it will work just fine.
+
+Time justification: reading through a lot of forums. 
+
+**Total time spent: 2.5 hours**
+
+# October 5
+
+Its been a while.
+
+Memory Management
+
+Considering that I plan to use this not only has a pocket radio but as a music player in general, I plan to provide 2 means of memory storage for music in the form of SDMMC and USB. The problem with this is that I dont want to waste an entire USB bus line just for memory. For this reason I selected the MCP2210 USB-to-SPI IC to handle data transfer. Additionally, I also selected the CP2102C, a USB-to-UART programming IC that allows me to free up the USB bus for the BQ25886RGE for power sense. This is connected to my USB-C receptacle, and allows me to program with UART over USB-C. Due to the limited pincount of the STM32L4P5CEU6, I can only support 1 bit SDMMC between the microSD card reader and the MCU. I also added an audio jack, connected to the Si4735 from ROUT/LOUT, and connected them to the ring and tip respectively, and grounded the sleeve. Ill have to impedance match this route later on during PCB layout.
+
+**Total time spent: 3.5 hours**
+
+# October 6
+
+Memory Management cont. 
+
+I made a mistake in my previous journal; the MCP2210 is not a USB-to-SPI memory interface but rather lives in the same vein as the CP2102C as a programming IC that converts flash over USB to flash over SPI. I have since switched to the MAX3421, which is a true USB host IC that can effectively read USB and relay the data over SPI to the microcontroller. Firmware-wise, this probably isnt the best option but I dont imagine ill have many other SPI signals in the DMA channel, since it will just be a (most likely mono e-ink and persistent) display.

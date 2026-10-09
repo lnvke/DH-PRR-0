@@ -661,7 +661,7 @@
         "uuid": "ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
       }
     ],
-    "used_designators": "TH1-2,BT1-3,J1-4,SW1-4,R1-37,Y1,#PWR1-68,L1-3,D1-5,AE1-3,C1-25,F1-2,U1-8",
+    "used_designators": "TH1-2,BT1-3,J1-5,SW1-4,R1-37,Y1-2,#PWR1-68,L1-3,D1-5,AE1-3,C1-25,F1-2,U1-8",
     "variants": []
   },
   "sheets": [
@@ -683,11 +683,15 @@
     ],
     [
       "e3608c0e-4ba9-4be0-a463-77fe1c953085",
-      "USB-C"
+      "USB-C TO UART"
     ],
     [
       "64c9e3bf-941e-41e6-9266-e7d08c7e7040",
       "MEMORY"
+    ],
+    [
+      "83f3be5d-7ed0-46d6-b0e4-0e9404942424",
+      "AUDIO"
     ]
   ],
   "text_variables": {},

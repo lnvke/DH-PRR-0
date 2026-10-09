@@ -2137,6 +2137,14 @@
 		(uuid "0b3694ac-b9ee-4ddf-a000-607fce84c980")
 	)
 	(no_connect
+		(at 223.52 129.54)
+		(uuid "2f5bfb2c-91ac-48c8-8450-052b38861c59")
+	)
+	(no_connect
+		(at 223.52 124.46)
+		(uuid "3185ccb4-1235-49f6-9a0c-da534386910e")
+	)
+	(no_connect
 		(at 176.53 139.7)
 		(uuid "52aa563b-e361-4a77-9816-741e7ec242a5")
 	)
@@ -2168,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 106.68) (xy 271.78 107.95)
+			(xy 251.46 106.68) (xy 251.46 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2388,7 +2396,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 140.97) (xy 271.78 142.24)
+			(xy 251.46 140.97) (xy 251.46 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2428,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 132.08) (xy 271.78 133.35)
+			(xy 251.46 132.08) (xy 251.46 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2548,7 +2556,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 115.57) (xy 271.78 116.84)
+			(xy 251.46 115.57) (xy 251.46 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2619,28 +2627,6 @@
 		)
 		(uuid "77982d26-2410-424c-a6bd-08bd4bc249c9")
 	)
-	(hierarchical_label "~{DTR}"
-		(shape output)
-		(at 223.52 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7df0e2fd-3685-4bd3-89e1-697296c61b5e")
-	)
-	(hierarchical_label "~{RI}"
-		(shape input)
-		(at 223.52 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa82fc71-e3dd-48c4-a216-4c648a226c5b")
-	)
 	(hierarchical_label "SUSPEND"
 		(shape output)
 		(at 223.52 134.62 0)
@@ -2665,7 +2651,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 271.78 111.76 0)
+		(at 251.46 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2675,7 +2661,7 @@
 		(dnp no)
 		(uuid "02df284a-c1aa-4286-b0f5-50544708c8d6")
 		(property "Reference" "C20"
-			(at 271.78 110.49 0)
+			(at 251.46 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2686,7 +2672,7 @@
 			)
 		)
 		(property "Value" "u1"
-			(at 271.78 113.03 0)
+			(at 251.46 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2697,7 +2683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 272.7452 115.57 0)
+			(at 252.4252 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +2694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 111.76 0)
+			(at 251.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2719,7 +2705,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 271.78 111.76 0)
+			(at 251.46 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2756,7 +2742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15e9bfd6-51b2-4681-85ad-958a192b5324")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR043"
 			(at 171.45 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -2816,7 +2802,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR039")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2810,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 116.84 0)
+		(at 251.46 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2834,8 +2820,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1905c44e-e55a-4f06-b9e0-c1a58ef3a263")
-		(property "Reference" "#PWR057"
-			(at 271.78 123.19 0)
+		(property "Reference" "#PWR051"
+			(at 251.46 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,7 +2832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 121.92 0)
+			(at 251.46 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2856,7 +2842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 116.84 0)
+			(at 251.46 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +2853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 116.84 0)
+			(at 251.46 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,7 +2864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 116.84 0)
+			(at 251.46 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +2880,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR057")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -2912,7 +2898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24265c55-7f54-4630-8a6e-7ee12a171821")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR047"
 			(at 208.28 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2972,7 +2958,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR053")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2990,7 +2976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aa816f8-89e0-498c-bc35-4bfef85c8f4a")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR049"
 			(at 213.36 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3050,7 +3036,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR055")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3068,7 +3054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "563f9e6a-1c47-4a6f-8124-268694243287")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR045"
 			(at 186.69 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -3128,7 +3114,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR041")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3145,7 +3131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c8a5ce7-5378-47b9-a5fb-d9085034ff7c")
-		(property "Reference" "R12"
+		(property "Reference" "R17"
 			(at 181.61 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,7 +3204,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "R12")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3235,7 +3221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62500143-cda2-4af9-ac93-2e4328580ab8")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 181.61 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3308,7 +3294,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -3326,7 +3312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fcdbb62-8d93-49fd-9f7f-21f5d2c4c001")
-		(property "Reference" "R24"
+		(property "Reference" "R19"
 			(at 191.77 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3389,7 +3375,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "R24")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3397,7 +3383,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 142.24 0)
+		(at 251.46 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3407,8 +3393,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7262e87c-ae4b-4245-bb85-11e4782864cd")
-		(property "Reference" "#PWR059"
-			(at 271.78 148.59 0)
+		(property "Reference" "#PWR053"
+			(at 251.46 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3419,7 +3405,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 147.32 0)
+			(at 251.46 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3429,7 +3415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 142.24 0)
+			(at 251.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3440,7 +3426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 142.24 0)
+			(at 251.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3451,7 +3437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 142.24 0)
+			(at 251.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,7 +3453,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR059")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3484,7 +3470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85dabaf1-7a18-4bf4-abe6-06d538776eff")
-		(property "Reference" "R23"
+		(property "Reference" "R20"
 			(at 201.93 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3532,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "R23")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fbcf509-90f0-4604-aca7-3cb503995e11")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR044"
 			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3624,7 +3610,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR040")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3632,7 +3618,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 271.78 106.68 0)
+		(at 251.46 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3642,8 +3628,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae8e124d-5a2b-418b-80d1-000bf981b48c")
-		(property "Reference" "#PWR056"
-			(at 271.78 110.49 0)
+		(property "Reference" "#PWR050"
+			(at 251.46 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3654,7 +3640,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 271.78 101.6 0)
+			(at 251.46 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3664,7 +3650,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 271.78 106.68 0)
+			(at 251.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3675,7 +3661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 106.68 0)
+			(at 251.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3686,7 +3672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 271.78 106.68 0)
+			(at 251.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3688,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR056")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3855,7 +3841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c85bb802-a618-493f-8880-d0eaf14c481a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR048"
 			(at 210.82 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -3915,7 +3901,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR054")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3923,7 +3909,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 271.78 137.16 0)
+		(at 251.46 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3933,7 +3919,7 @@
 		(dnp no)
 		(uuid "cf726638-37b0-4d4b-a7f6-c528cabd5fde")
 		(property "Reference" "C21"
-			(at 271.78 135.89 0)
+			(at 251.46 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3944,7 +3930,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 271.78 138.43 0)
+			(at 251.46 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3955,7 +3941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 272.7452 140.97 0)
+			(at 252.4252 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3966,7 +3952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 137.16 0)
+			(at 251.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +3963,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 271.78 137.16 0)
+			(at 251.46 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4152,7 +4138,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 271.78 132.08 0)
+		(at 251.46 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4162,8 +4148,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3bf196d-04fb-4a60-885c-0de72ce08d45")
-		(property "Reference" "#PWR058"
-			(at 271.78 135.89 0)
+		(property "Reference" "#PWR052"
+			(at 251.46 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4174,7 +4160,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 271.78 127 0)
+			(at 251.46 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4184,7 +4170,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 271.78 132.08 0)
+			(at 251.46 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4195,7 +4181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 132.08 0)
+			(at 251.46 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4206,7 +4192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 271.78 132.08 0)
+			(at 251.46 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4222,7 +4208,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR058")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4240,7 +4226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5dcca2c-ad43-4298-a926-2cad992c94f5")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR046"
 			(at 190.5 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4300,7 +4286,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "#PWR052")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4318,7 +4304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6f5a4aa-43d8-4f96-9287-afe467bd0c95")
-		(property "Reference" "R25"
+		(property "Reference" "R18"
 			(at 191.77 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4381,7 +4367,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/e3608c0e-4ba9-4be0-a463-77fe1c953085"
-					(reference "R25")
+					(reference "R18")
 					(unit 1)
 				)
 			)

@@ -612,503 +612,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Ferrite_Coupled"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L_Ferrite_Coupled"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Coupled inductor with ferrite core"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic coupled"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_Ferrite_Coupled_0_1"
-				(circle
-					(center -3.048 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.048 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 0.508) (xy -2.286 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.794 -0.508) (xy -2.286 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.032) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.032) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 2.032)
-					(mid -2.032 1.5262)
-					(end -2.54 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.032)
-					(mid -2.032 -1.5262)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0.508) (xy -1.27 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.508) (xy -1.27 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid -1.016 1.5262)
-					(end -1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -2.032)
-					(mid -1.016 -1.5262)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0.508) (xy -0.254 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.508) (xy -0.254 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 2.032)
-					(mid 0 1.5262)
-					(end -0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.032)
-					(mid 0 -1.5262)
-					(end 0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0.508) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 2.032)
-					(mid 1.016 1.5262)
-					(end 0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -2.032)
-					(mid 1.016 -1.5262)
-					(end 1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.508) (xy 1.778 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.508) (xy 1.778 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.032)
-					(mid 2.032 1.5262)
-					(end 1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -2.032)
-					(mid 2.032 -1.5262)
-					(end 2.54 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0.508) (xy 2.794 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -0.508) (xy 2.794 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.032) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Ferrite_Coupled_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2328,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 148.59) (xy 255.27 148.59)
+			(xy 248.92 148.59) (xy 256.54 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2345,16 +1848,6 @@
 			(type default)
 		)
 		(uuid "03b1352c-e5b0-456e-9614-37ed38416974")
-	)
-	(wire
-		(pts
-			(xy 256.54 107.95) (xy 261.62 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04006d63-18f7-4368-94f6-85a391cd85d4")
 	)
 	(wire
 		(pts
@@ -2428,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 148.59) (xy 269.24 147.32)
+			(xy 256.54 139.7) (xy 256.54 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2465,16 +1958,6 @@
 			(type default)
 		)
 		(uuid "2d42a692-30c0-478a-9dba-d8fe4f497304")
-	)
-	(wire
-		(pts
-			(xy 256.54 119.38) (xy 256.54 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe6b3ec-62f3-4f6d-bad9-c54d64549db3")
 	)
 	(wire
 		(pts
@@ -2608,6 +2091,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 147.32) (xy 256.54 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd64ef6-4900-4140-83ae-e818204987df")
+	)
+	(wire
+		(pts
 			(xy 207.01 104.14) (xy 207.01 105.41)
 		)
 		(stroke
@@ -2615,16 +2108,6 @@
 			(type default)
 		)
 		(uuid "6c5d3b02-ec90-40b5-bb57-df0912565b19")
-	)
-	(wire
-		(pts
-			(xy 256.54 120.65) (xy 261.62 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e81fc4e-b165-40db-a724-6e96fb8a613e")
 	)
 	(wire
 		(pts
@@ -2648,33 +2131,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 124.46) (xy 229.87 124.46)
+			(xy 205.74 124.46) (xy 217.17 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fe9526f-eb5a-46e3-b29a-2e2e4c912756")
-	)
-	(wire
-		(pts
-			(xy 251.46 119.38) (xy 251.46 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a4e689-b29d-4cf8-8b09-460457ed8d26")
-	)
-	(wire
-		(pts
-			(xy 262.89 148.59) (xy 269.24 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73eb0743-a0aa-4a14-8a44-a3af51f0b0ba")
 	)
 	(wire
 		(pts
@@ -2718,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 119.38) (xy 229.87 119.38)
+			(xy 214.63 119.38) (xy 217.17 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2788,16 +2251,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 107.95) (xy 256.54 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b0daeb1-dc52-44f2-a717-1accbaa88ef5")
-	)
-	(wire
-		(pts
 			(xy 154.94 104.14) (xy 157.48 104.14)
 		)
 		(stroke
@@ -2808,7 +2261,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 147.32) (xy 271.78 148.59)
+			(xy 259.08 138.43) (xy 259.08 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 120.65) (xy 248.92 121.92)
+			(xy 236.22 147.32) (xy 236.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2908,7 +2361,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 109.22) (xy 251.46 109.22)
+			(xy 233.68 144.78) (xy 238.76 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2948,17 +2401,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 115.57) (xy 264.16 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d20ce420-88ec-4fec-b988-d62fbe6d6b3d")
-	)
-	(wire
-		(pts
-			(xy 205.74 121.92) (xy 229.87 121.92)
+			(xy 205.74 121.92) (xy 217.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2968,7 +2411,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 120.65) (xy 251.46 120.65)
+			(xy 236.22 147.32) (xy 238.76 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2985,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "d5ec0933-d095-4947-b530-cc6ad35d1917")
-	)
-	(wire
-		(pts
-			(xy 261.62 107.95) (xy 261.62 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfa4b722-6f90-49b9-b056-60d3347d4c11")
 	)
 	(wire
 		(pts
@@ -3018,16 +2451,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 113.03) (xy 264.16 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e36eaa04-c9c1-40b4-91a0-44f09edb468c")
-	)
-	(wire
-		(pts
 			(xy 147.32 147.32) (xy 153.67 147.32)
 		)
 		(stroke
@@ -3045,16 +2468,6 @@
 			(type default)
 		)
 		(uuid "f2804ba8-4844-48c5-9d55-9938dc388cb3")
-	)
-	(wire
-		(pts
-			(xy 261.62 115.57) (xy 261.62 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95ca13f-b008-48d7-93df-006f279410d9")
 	)
 	(wire
 		(pts
@@ -3097,7 +2510,7 @@
 		(uuid "4f6afb5e-bb1c-4715-bb22-7bb6950f7d56")
 	)
 	(label "AMI"
-		(at 245.11 109.22 0)
+		(at 233.68 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3107,7 +2520,7 @@
 		(uuid "7717c383-3413-4ebf-a222-f006e91dadfd")
 	)
 	(label "ANT_{FM}"
-		(at 245.11 148.59 0)
+		(at 248.92 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3167,16 +2580,16 @@
 		)
 		(uuid "23dfc793-5662-4a5b-b492-c63a829c74f6")
 	)
-	(hierarchical_label "ROUT/[DOUT]"
-		(shape output)
-		(at 229.87 121.92 0)
+	(hierarchical_label "LOUT"
+		(shape input)
+		(at 217.17 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3a47ee50-0567-4440-9206-98d87cb58d93")
+		(uuid "29a7223a-7168-4133-a104-b8fef8afbfdb")
 	)
 	(hierarchical_label "~{RST}"
 		(shape input)
@@ -3211,16 +2624,16 @@
 		)
 		(uuid "67062fb9-f2bb-4cbf-b149-fba1e0bb694d")
 	)
-	(hierarchical_label "LOUT/[DFS]"
-		(shape bidirectional)
-		(at 229.87 124.46 0)
+	(hierarchical_label "ROUT"
+		(shape input)
+		(at 217.17 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8e6f6a8d-77a8-42ae-9a9d-c79457aa89ee")
+		(uuid "8d93e6ee-d05c-4531-bba8-ddc078350dfd")
 	)
 	(hierarchical_label "GPO1"
 		(shape output)
@@ -3246,7 +2659,7 @@
 	)
 	(hierarchical_label "DOUT"
 		(shape output)
-		(at 229.87 119.38 0)
+		(at 217.17 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3510,7 +2923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22a6af57-393b-4e92-bc7e-2724f5e2ac66")
-		(property "Reference" "R22"
+		(property "Reference" "R2"
 			(at 158.75 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,7 +2986,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
-					(reference "R22")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3659,7 +3072,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna_Loop")
-		(at 269.24 113.03 270)
+		(at 243.84 144.78 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3669,7 +3082,7 @@
 		(dnp no)
 		(uuid "2d4c3091-43b2-42e1-8edb-e4778d1dcbd3")
 		(property "Reference" "AE2"
-			(at 269.24 105.41 90)
+			(at 243.84 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3679,7 +3092,7 @@
 			)
 		)
 		(property "Value" "Antenna_Loop"
-			(at 269.24 107.95 90)
+			(at 243.84 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3689,7 +3102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 113.03 0)
+			(at 243.84 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3700,7 +3113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 113.03 0)
+			(at 243.84 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3711,7 +3124,7 @@
 			)
 		)
 		(property "Description" "Loop antenna"
-			(at 269.24 113.03 0)
+			(at 243.84 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,7 +3232,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 259.08 148.59 90)
+		(at 256.54 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3828,19 +3241,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a069b01-4c7d-4c3b-bebb-bfd07743278b")
-		(property "Reference" "C19"
-			(at 260.35 148.336 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "1n"
-			(at 257.81 148.336 90)
+		(property "Reference" "C7"
+			(at 256.54 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3850,8 +3252,19 @@
 				(justify left top)
 			)
 		)
+		(property "Value" "1n"
+			(at 256.54 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 262.89 147.6248 0)
+			(at 255.5748 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 148.59 0)
+			(at 256.54 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3873,7 +3286,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 259.08 148.59 0)
+			(at 256.54 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +3305,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
-					(reference "C19")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4294,7 +3707,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48c7a4b6-0473-46f2-b0dc-8e6f20d915ac")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 214.63 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4356,7 +3769,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4526,91 +3939,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Ferrite_Coupled")
-		(at 254 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70d0e181-429b-4c34-8530-0894f3938cba")
-		(property "Reference" "L1"
-			(at 254 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L_Ferrite_Coupled"
-			(at 254 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 254 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Coupled inductor with ferrite core"
-			(at 254 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "348bc0c1-cf6d-4bfe-a81a-439a47587ba4")
-		)
-		(pin "3"
-			(uuid "3836605c-4fe8-4dd0-ac44-d588d5ac448b")
-		)
-		(pin "4"
-			(uuid "6fb443c0-d160-49f5-ab1c-8bfa3f965a47")
-		)
-		(pin "1"
-			(uuid "b6461e36-c443-41be-a8e2-2784a4d3d8b0")
-		)
-		(instances
-			(project "DH-PRR-0"
-				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 212.09 109.22 0)
 		(unit 1)
@@ -4703,7 +4031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e3d6212-520d-4958-a77f-8dfc3d684d41")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 170.18 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4765,7 +4093,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4782,7 +4110,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94bfea84-8474-48ee-8070-00aee2453a4f")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 214.63 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,7 +4172,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4930,7 +4258,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 121.92 0)
+		(at 236.22 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4940,8 +4268,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a955384e-3c40-405b-b764-8c9b721aa3e8")
-		(property "Reference" "#PWR022"
-			(at 248.92 128.27 0)
+		(property "Reference" "#PWR010"
+			(at 236.22 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4952,7 +4280,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 127 0)
+			(at 236.22 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4962,7 +4290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 121.92 0)
+			(at 236.22 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4973,7 +4301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 121.92 0)
+			(at 236.22 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4984,7 +4312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 121.92 0)
+			(at 236.22 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5000,7 +4328,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
-					(reference "#PWR022")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5164,7 +4492,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna_Dipole")
-		(at 269.24 142.24 0)
+		(at 256.54 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5174,7 +4502,7 @@
 		(dnp no)
 		(uuid "d4467e98-287d-4970-9145-5377e84e03f8")
 		(property "Reference" "AE1"
-			(at 270.51 138.43 0)
+			(at 257.81 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5184,7 +4512,7 @@
 			)
 		)
 		(property "Value" "Antenna_Dipole"
-			(at 270.51 140.97 0)
+			(at 257.81 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5194,7 +4522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 142.24 0)
+			(at 256.54 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5205,7 +4533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 142.24 0)
+			(at 256.54 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5216,7 +4544,7 @@
 			)
 		)
 		(property "Description" "Dipole antenna"
-			(at 269.24 142.24 0)
+			(at 256.54 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5330,7 +4658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddcf8a42-ec3e-420d-888b-6a30057d6a9c")
-		(property "Reference" "R21"
+		(property "Reference" "R1"
 			(at 153.67 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5393,7 +4721,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
-					(reference "R21")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5557,7 +4885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 148.59 0)
+		(at 259.08 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5567,8 +4895,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f85641c1-6bea-436b-aeac-2b2fae3c1c7b")
-		(property "Reference" "#PWR047"
-			(at 271.78 154.94 0)
+		(property "Reference" "#PWR011"
+			(at 259.08 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5579,7 +4907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 153.67 0)
+			(at 259.08 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5589,7 +4917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 148.59 0)
+			(at 259.08 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,7 +4928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 148.59 0)
+			(at 259.08 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5611,7 +4939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 148.59 0)
+			(at 259.08 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5627,7 +4955,7 @@
 		(instances
 			(project "DH-PRR-0"
 				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe/6ca2e9f9-9113-4670-a326-383919693048"
-					(reference "#PWR047")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
