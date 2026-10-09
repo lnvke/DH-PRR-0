@@ -50,3 +50,13 @@ Considering that I plan to use this not only has a pocket radio but as a music p
 Memory Management cont. 
 
 I made a mistake in my previous journal; the MCP2210 is not a USB-to-SPI memory interface but rather lives in the same vein as the CP2102C as a programming IC that converts flash over USB to flash over SPI. I have since switched to the MAX3421, which is a true USB host IC that can effectively read USB and relay the data over SPI to the microcontroller. Firmware-wise, this probably isnt the best option but I dont imagine ill have many other SPI signals in the DMA channel, since it will just be a (most likely mono e-ink and persistent) display.
+
+**Total time spent: 2.5 hours**
+
+# October 9
+
+Git branch fix
+
+I messed up my git branches locally pretty bad, and I somehow ended up with a bunch of dangling branches. I ended up saving everything locally and wiping my entire repo to get everything back. Very tedious, took much longer than it should have. Proof of time elapsed can be seen in between commit messages.
+
+**Total time spent: 1 hour**
