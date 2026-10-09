@@ -1,0 +1,700 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ef4cbb1a-0736-46e9-bda5-652f30ffa2fe")
+	(paper "User" 381 254)
+	(lib_symbols)
+	(sheet
+		(at 66.04 25.4)
+		(size 29.21 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1971280e-523d-47b5-8548-2653c7072d22")
+		(property "Sheetname" "MICROCONTROLLER UNIT"
+			(at 66.04 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 66.04 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D+" input
+			(at 66.04 27.94 180)
+			(uuid "52648f46-9419-4722-b60f-db98e7ef0fb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" input
+			(at 66.04 30.48 180)
+			(uuid "bb59ed60-18bd-4937-921b-d0f72b407a03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 66.04 49.53 180)
+			(uuid "06bdcf21-9288-47e5-8e60-d7edfe60bb31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 66.04 52.07 180)
+			(uuid "d3c8b0ef-ece0-4f2a-9c1a-446dee1531a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC_CLK" input
+			(at 95.25 72.39 0)
+			(uuid "5b0b4ae8-17bb-4f5b-85f7-a1e5e3ae95dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDMMC_CMD" input
+			(at 95.25 74.93 0)
+			(uuid "fbdcf867-f319-4011-a93a-3c76384ff962")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDMMC_D0" input
+			(at 95.25 69.85 0)
+			(uuid "1adebd82-0bb3-4a5d-a323-de1ef708caf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 95.25 30.48 0)
+			(uuid "fbed557e-e8e2-482d-be41-591f90b5c235")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DH-PRR-0"
+				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 40.64)
+		(size 31.75 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "64c9e3bf-941e-41e6-9266-e7d08c7e7040")
+		(property "Sheetname" "MEMORY"
+			(at 99.06 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 99.06 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D0" input
+			(at 99.06 69.85 180)
+			(uuid "27ea73ce-bcf8-4438-b5ec-7def207b50d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DET" input
+			(at 99.06 77.47 180)
+			(uuid "efe2dcea-65c7-4736-905c-17d24eed68ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP0" bidirectional
+			(at 99.06 45.72 180)
+			(uuid "29c5e76e-a8cc-4020-8067-51e05022b9b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP1" bidirectional
+			(at 99.06 48.26 180)
+			(uuid "0a03d232-3811-4bdb-9f63-32ed2fa2c35d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP2" bidirectional
+			(at 99.06 50.8 180)
+			(uuid "4e831658-2d8d-4bc5-adb2-b9f49f4546d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP3" bidirectional
+			(at 99.06 53.34 180)
+			(uuid "3c6b1abe-83b2-40c6-b862-7fc9d399ad0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP4" bidirectional
+			(at 99.06 55.88 180)
+			(uuid "1dd136c0-55e8-4f27-b476-a1721d6ec16c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP5" bidirectional
+			(at 99.06 58.42 180)
+			(uuid "348bda32-d221-4aac-803b-8554c8a0c21d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP6" bidirectional
+			(at 99.06 60.96 180)
+			(uuid "bbf7f6c5-7949-450e-972a-4e2a0fc074fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP7" bidirectional
+			(at 99.06 63.5 180)
+			(uuid "e725a27d-a22a-4fc7-8cb0-e2d4045f3a22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP8" bidirectional
+			(at 99.06 66.04 180)
+			(uuid "b2aa7668-8af0-4fbd-b41d-d1aa917b4d87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 99.06 81.28 180)
+			(uuid "ef735692-b2a8-4c05-8703-71082c1ede2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" output
+			(at 99.06 83.82 180)
+			(uuid "ebfbcc62-a719-4b0b-ad73-acf8e2912d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" output
+			(at 99.06 86.36 180)
+			(uuid "3d65a025-8fed-4ee4-a8a6-3c2cb0926c39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC_CLK" input
+			(at 99.06 72.39 180)
+			(uuid "381b6c45-7905-4b7d-9bb4-dd45ca300aa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC_CMD" input
+			(at 99.06 74.93 180)
+			(uuid "4e1823b4-df7f-4ae9-b761-ad8d137e6576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RST}" input
+			(at 99.06 43.18 180)
+			(uuid "b18df61d-2a33-4dbe-a214-7b20f545c002")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DH-PRR-0"
+				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 81.28)
+		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6ca2e9f9-9113-4670-a326-383919693048")
+		(property "Sheetname" "AM-FM RECEIVER"
+			(at 36.83 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf_ic.kicad_sch"
+			(at 36.83 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DFS" input
+			(at 36.83 91.44 180)
+			(uuid "f3528640-93c6-4acd-8bc1-3b6204406980")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 36.83 83.82 180)
+			(uuid "08c15cc2-a425-4af9-a995-15159c676586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPO1" output
+			(at 62.23 96.52 0)
+			(uuid "5be6e7d9-9ad8-4d42-bfeb-e819c840ddd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPO2/[~{INT}]" output
+			(at 62.23 99.06 0)
+			(uuid "b5fe0fa1-d029-4523-a5c6-d509567c7cb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LOUT/[DFS]" bidirectional
+			(at 36.83 88.9 180)
+			(uuid "220f3e9e-458c-4c4a-a10b-b165ec13cae2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ROUT/[DOUT]" output
+			(at 36.83 86.36 180)
+			(uuid "89c5015e-57f2-490e-a7a3-218e8758b29a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 62.23 91.44 0)
+			(uuid "5610a0a9-0898-481a-a038-fad99c62eff9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDIO" bidirectional
+			(at 62.23 88.9 0)
+			(uuid "36ad9834-03e0-430f-886a-2bd6362e238a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST}" input
+			(at 62.23 83.82 0)
+			(uuid "a15a2e26-3f93-428c-9927-973203c4e3ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SEN}" input
+			(at 62.23 86.36 0)
+			(uuid "e25e260f-a5db-4d01-8b43-6df894aa75f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DH-PRR-0"
+				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 25.4)
+		(size 25.4 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7632046a-9155-4f6c-a47f-a5971a080e22")
+		(property "Sheetname" "POWER MANAGEMENT"
+			(at 36.83 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_mgmt.kicad_sch"
+			(at 36.83 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 62.23 27.94 0)
+			(uuid "2cbdb8b0-a8d4-4781-80d7-a043be6c6fb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 62.23 30.48 0)
+			(uuid "cec53503-420c-436f-a009-ced52ccf9892")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CE}" input
+			(at 62.23 33.02 0)
+			(uuid "b74fb7cb-c05a-40c5-be60-1692fb673169")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DH-PRR-0"
+				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 12.7 81.28)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "83f3be5d-7ed0-46d6-b0e4-0e9404942424")
+		(property "Sheetname" "AUDIO"
+			(at 12.7 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 12.7 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DH-PRR-0"
+				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 25.4)
+		(size 31.75 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e3608c0e-4ba9-4be0-a463-77fe1c953085")
+		(property "Sheetname" "USB-C TO UART"
+			(at 99.06 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_c_receptacle.kicad_sch"
+			(at 99.06 36.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RST" input
+			(at 99.06 33.02 180)
+			(uuid "592d392d-d2c6-451b-9fdd-c8ed31d2f128")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 99.06 30.48 180)
+			(uuid "ff75fa61-1187-457a-876b-64dd57616d4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD" tri_state
+			(at 99.06 27.94 180)
+			(uuid "2e36dee3-eeff-4ded-95bc-12be0bbb7e0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DH-PRR-0"
+				(path "/ef4cbb1a-0736-46e9-bda5-652f30ffa2fe"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
